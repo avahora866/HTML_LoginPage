@@ -1,0 +1,45 @@
+body {
+    background-color: #f2b594;
+    color: #FFF;
+    text-align: center;
+}
+
+img {
+    width: 112.5px;
+    height: 112.5px;
+}
+
+form a,
+form a:hover {
+    text-decoration: none;
+    color: #CBC3E3;
+}
+
+#usernameField {
+    border: none;
+    border-bottom: solid 1px black;
+    background-image: url('images/usernameIcon.png');
+    background-position: 7px 7px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-color: #240747;
+    color: #FFF;
+    padding-left: 40px;
+}
+
+#usernameField::placeholder,
+#passwordField::placeholder {
+    color: #FFF
+}
+
+#passwordField {
+    border: none;
+    border-bottom: solid 1px black;
+    background-image: url('images/passwordIcon.png');
+    background-position: 7px 7px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-color: #240747;
+    padding-left: 40px;
+    color: #FFF;
+}
