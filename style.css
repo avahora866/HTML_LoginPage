@@ -43,3 +43,36 @@ form a:hover {
     padding-left: 40px;
     color: #FFF;
 }
+
+#main-card {
+    margin: auto;
+    display: flex;
+}
+
+#formStyling {
+    margin: auto;
+    display: flex;
+}
+
+@media (min-width: 380px) {
+    #main-card {
+        display: flex;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 450px) {
+    #main-card {
+        display: flex;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 850px) {
+    #main-card {
+        display: flex;
+        margin: auto;
+        width: 25%;
+    }
+}

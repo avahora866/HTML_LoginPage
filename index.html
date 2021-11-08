@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>LoginPage</title>
 </head>
 
 <body style="background-color: #ffdbcc; color: #FFF;">
     <h3 class="text-center mt-5 mb-5" style="color: black;">Login #09</h3>
-    <div class="card mt-5 d-flex justify-items-center m-auto w-25" style="background-color: #240747;">
+    <div class="card mt-5 justify-items-center" style="background-color: #240747;" id="main-card">
         <div class="card-body text-center">
             <div class="container">
                 <img class="rounded-circle" src="images/profile.png" alt="">
@@ -20,7 +20,7 @@
             <h3 class="card-text mt-4">WELCOME</h3>
             <p class="card-text lead" style="font-size: .9em;">Sign in by entering the information below</p>
             <form action="">
-                <div class="d-flex flex-column w-75 m-auto">
+                <div class="form-group flex-column w-75" id="formStyling">
                     <div class="input-group mb-3">
                         <input id="usernameField" class="form-control" type="text" for="username" placeholder="Username">
                     </div>
